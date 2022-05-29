@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./pages/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Общежитие</title>
+  <base target="_blank">
+</head>
+
+<body>
+    <div class="page">
+        <main>
+            <header class="header">
+                <img class="header__logo", src="./images/StudGorod.svg">
+                <div class="lead">
+                    <p class="lead__subtitle">Система для работы с общежитием.</p>
+                    <button class="lead__button">Заселить студентов</button>
+                </div>
+            </header>
+
+            <div class="search">
+                <h2 class="search__main-title">Найти информацию о заселении</h2>
+                <div class="search__flex">
+                    <form class="search__form search__container" novalidate>
+                        <h2 class="search__title">Поиск по студенту</h2>
+                        <div class="search__field">
+                          <input id="fio-input" class="search__input" name="fio" placeholder="Фио">
+                        </div>
+                        <button class="search__button" type="submit" disabled>Найти</button>
+                      </form>
+                      <form class="search__form search__container" novalidate>
+                          <h2 class="search__title">Поиск по комнате</h2>
+                          <div class="search__field">
+                            <input id="room-input" class="search__input" name="room" placeholder="Номер комнаты">
+                          </div>
+                          <button class="search__button" type="submit" disabled>Найти</button>
+                        </form>
+                </div>
+              </div>
+
+              <section class="housing">
+                <h2 class="housing__title">Выберите корпус</h2>
+                <div class="table__cell_centre">
+                  <h4 class="table__heading_centre">Корпус 7</h4>
+                </div>
+                <div class="table">
+                  <div class="table__cell">
+                    <h4 class="table__heading">Корпус 9</h4>
+                  </div>
+                  <div class="table__cell">
+                    <h4 class="table__heading">Корпус 11</h4>
+                  </div>
+                  <div class="table__cell">
+                    <h4 class="table__heading">Корпус 13</h4>
+                  </div>
+                  <div class="table__cell">
+                    <h4 class="table__heading">Корпус 15</h4>
+                  </div>
+                </div>
+              </section>
+
+              <button>Заселить студентов</button>
+        </main>
+    </div>
+</body>
